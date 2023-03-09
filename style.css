@@ -50,3 +50,17 @@ button:hover {
 h1.temp {
     margin: 0;
 }
+.description {
+    text-transform: capitalize;
+}
+.weather.loading {
+    visibility: hidden;
+    position: relative;
+}
+.weather.loading.after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+}
